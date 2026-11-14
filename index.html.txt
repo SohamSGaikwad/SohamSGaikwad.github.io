@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Soham Gaikwad | Java Backend Developer</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #0f172a;
+            color: white;
+            line-height: 1.6;
+        }
+
+        nav {
+            padding: 20px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #1e293b;
+        }
+
+        nav h2 {
+            color: #38bdf8;
+        }
+
+        nav a {
+            color: #cbd5e1;
+            text-decoration: none;
+            margin-left: 25px;
+        }
+
+        nav a:hover {
+            color: #38bdf8;
+        }
+
+        .hero {
+            min-height: 90vh;
+            display: flex;
+            align-items: center;
+            padding: 60px 8%;
+        }
+
+        .hero-content {
+            max-width: 800px;
+        }
+
+        .hero h1 {
+            font-size: 55px;
+            margin-bottom: 15px;
+        }
+
+        .hero h1 span {
+            color: #38bdf8;
+        }
+
+        .hero h2 {
+            color: #94a3b8;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            color: #cbd5e1;
+            max-width: 650px;
+            font-size: 18px;
+        }
+
+        .buttons {
+            margin-top: 30px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 22px;
+            margin-right: 10px;
+            border-radius: 6px;
+            text-decoration: none;
+            background: #38bdf8;
+            color: #0f172a;
+            font-weight: bold;
+        }
+
+        .btn.secondary {
+            background: transparent;
+            color: white;
+            border: 1px solid #475569;
+        }
+
+        section {
+            padding: 80px 8%;
+        }
+
+        section h2 {
+            color: #38bdf8;
+            margin-bottom: 25px;
+            font-size: 32px;
+        }
+
+        .about p {
+            max-width: 800px;
+            color: #cbd5e1;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-top: 25px;
+        }
+
+        .skill {
+            background: #1e293b;
+            padding: 10px 16px;
+            border-radius: 6px;
+            color: #cbd5e1;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .project {
+            background: #1e293b;
+            padding: 25px;
+            border-radius: 10px;
+            border: 1px solid #334155;
+        }
+
+        .project h3 {
+            color: white;
+            margin-bottom: 10px;
+        }
+
+        .project p {
+            color: #94a3b8;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: #64748b;
+            border-top: 1px solid #1e293b;
+        }
+
+        @media (max-width: 600px) {
+            .hero h1 {
+                font-size: 38px;
+            }
+
+            nav {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            nav a {
+                margin-left: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<nav>
+    <h2>Soham Gaikwad</h2>
+
+    <div>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
+
+<section class="hero">
+    <div class="hero-content">
+
+        <h1>Hi, I'm <span>Soham Gaikwad</span></h1>
+
+        <h2>Java Backend Developer | Tally/TDL Developer | Data Analytics</h2>
+
+        <p>
+            Software Developer with experience in Java, Spring Boot,
+            REST APIs, databases, TallyPrime and TDL. I build business
+            applications and data-driven solutions.
+        </p>
+
+        <div class="buttons">
+            <a class="btn" href="#projects">View Projects</a>
+
+            <a class="btn secondary"
+               href="https://github.com/SohamSGaikwad"
+               target="_blank">
+                GitHub
+            </a>
+        </div>
+
+    </div>
+</section>
+
+<section id="about" class="about">
+
+    <h2>About Me</h2>
+
+    <p>
+        I am a software developer with around 2 years of experience
+        working on business applications, backend systems, REST APIs
+        and database-driven solutions.
+
+        My core experience is in Java, Spring Boot, SQL, TallyPrime
+        and TDL. I am also developing my skills in Excel, Power BI,
+        SQL and Python for Data Analytics.
+    </p>
+
+</section>
+
+<section id="skills">
+
+    <h2>Skills</h2>
+
+    <div class="skills">
+
+        <div class="skill">Java</div>
+        <div class="skill">Spring Boot</div>
+        <div class="skill">REST API</div>
+        <div class="skill">Spring Security</div>
+        <div class="skill">Hibernate</div>
+        <div class="skill">MySQL</div>
+        <div class="skill">MongoDB</div>
+        <div class="skill">TallyPrime</div>
+        <div class="skill">TDL</div>
+        <div class="skill">React</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">SQL</div>
+        <div class="skill">Excel</div>
+        <div class="skill">Power BI</div>
+        <div class="skill">Python</div>
+        <div class="skill">Git & GitHub</div>
+
+    </div>
+
+</section>
+
+<section id="projects">
+
+    <h2>Projects</h2>
+
+    <div class="projects">
+
+        <div class="project">
+            <h3>Tally Sales Analytics Dashboard</h3>
+
+            <p>
+                Business analytics dashboard integrated with TallyPrime
+                for sales analysis, customers, inventory, outstanding
+                reports and business KPIs.
+            </p>
+        </div>
+
+        <div class="project">
+            <h3>CareMate Hospital Management System</h3>
+
+            <p>
+                Hospital management backend developed using Spring Boot,
+                REST APIs and database technologies.
+            </p>
+        </div>
+
+        <div class="project">
+            <h3>Saman ERP</h3>
+
+            <p>
+                Business ERP application with backend APIs,
+                database integration and business workflows.
+            </p>
+        </div>
+
+        <div class="project">
+            <h3>Badali Driver</h3>
+
+            <p>
+                Customer and driver applications for booking verified
+                drivers, including booking management and payment flow.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="contact">
+
+    <h2>Contact</h2>
+
+    <p>
+        Email:
+        <a href="mailto:your-email@example.com">
+            your-email@example.com
+        </a>
+    </p>
+
+    <br>
+
+    <p>
+        GitHub:
+        <a href="https://github.com/SohamSGaikwad" target="_blank">
+            github.com/SohamSGaikwad
+        </a>
+    </p>
+
+</section>
+
+<footer>
+    © 2026 Soham Gaikwad. All rights reserved.
+</footer>
+
+</body>
+</html>
